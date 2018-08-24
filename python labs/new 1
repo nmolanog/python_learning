@@ -1,0 +1,19 @@
+file=open("C:/Users/Usuario/python labs/moby_dick.txt",mode="r")
+print(file.read())
+print(file.closed)
+file.close()
+print(file.closed)
+with open('C:/Users/Usuario/python labs/moby_dick.txt','r') as file:
+    print(file.readline())
+    print(file.readline())
+    print(file.readline())
+import numpy as np
+file = 'C:/Users/Usuario/python labs/taller loc disp.csv'
+
+# Load file as array: digits
+digits = np.loadtxt(file, delimiter=';')
+
+# Print datatype of digits
+print(type(digits))
+# Print datatype of digits
+print(digits)
