@@ -11,7 +11,7 @@ from sqlalchemy import create_engine
 import pandas as pd
 
 os.getcwd()
-os.chdir("/media/nicolas/644E386C4E38395E/nicolas/python/python labs/")
+os.chdir("/media/nicolas/DATOS1/python_learning/python labs/")
 # Create engine: engine
 engine = create_engine('sqlite:///Chinook_Sqlite.sqlite')
 # Save the table names to a list: table_names
